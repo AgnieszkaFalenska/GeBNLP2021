@@ -1,0 +1,10 @@
+[CAT=social]	None	Męska grypa	Grypa
+[CAT=social]	None	Primogenitura męska	Primogenitura
+[CAT=social]	None	Ruch praw mężczyzn	Prawa ruchu
+[CAT=sport]	None	Gimnastyka artystyczna mężczyzn	Gimnastyka artystyczna
+[CAT=sport]	None	Mistrzostwa Polski w koszykówce mężczyzn	Mistrzostwa Polski w koszykówce
+[CAT=sport]	None	Mistrzostwa Rosji w piłce nożnej mężczyzn	Mistrzostwa Rosji w piłce nożnej
+[CAT=sport]	None	Mistrzostwa Rumunii w piłce nożnej mężczyzn	Mistrzostwa Rumunii w piłce nożnej
+[CAT=sport]	None	Mistrzostwa Słowacji w piłce nożnej mężczyzn	Mistrzostwa Słowacji w piłce nożnej
+[CAT=sport]	None	Męska rozgrywka	Rozgrywki
+[CAT=sport]	None	Męski sport	Sport

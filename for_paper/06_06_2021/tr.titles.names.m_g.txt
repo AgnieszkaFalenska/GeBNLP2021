@@ -1,0 +1,9 @@
+[CAT=social]	None	Erkek arı	Ar+ı#<>#Arı
+[CAT=social]	None	Erkek erkeğe seks	Seks
+[CAT=social]	None	Michael Bay	Michael
+[CAT=sport]	None	2004 Yaz Olimpiyatları'nda futbol - Erkekler	2004 Yaz Olimpiyatları'nda futbol
+[CAT=sport]	None	2012 Yaz Olimpiyatları'nda futbol - Erkekler	2012 Yaz Olimpiyatları'nda futbol
+[CAT=unknown]	None	Bay Lake, Florida	Lake, Florida
+[CAT=unknown]	None	Bay Müzik	Müzik
+[CAT=unknown]	None	Bay, Michigan	Michigan
+[CAT=unknown]	None	Marina Bay	Marina

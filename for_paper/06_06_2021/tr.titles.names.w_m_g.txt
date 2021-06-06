@@ -1,0 +1,16 @@
+[CAT=social]	En İyi Solo Kadın Rap Performansı Grammy Ödülü	En İyi Solo Erkek Rap Performansı Grammy Ödülü	En İyi Solo Rap Performansı Grammy Ödülü
+[CAT=social]	Trans kadın	Trans erkek	Trans
+[CAT=sport]	2005 Dünya Üniversite Yaz Oyunları'nda voleybol - kadınlar	2005 Dünya Üniversite Yaz Oyunları'nda voleybol - Erkekler	2005 Dünya Üniversite Yaz Oyunları'nda voleybol
+[CAT=sport]	2010 Kış Olimpiyatları'nda artistik buz pateni - Kadınlar	2010 Kış Olimpiyatları'nda artistik buz pateni - Erkekler	2010 Kış Olimpiyatları'nda artistik buz pateni#<>#2010 Kış Olimpiyatlarında artistik buz pateni
+[CAT=sport]	2013 Akdeniz Oyunları'nda voleybol - Kadınlar	2013 Akdeniz Oyunları'nda voleybol - Erkekler	2013 Akdeniz Oyunları'nda voleybol
+[CAT=sport]	2014 Kış Olimpiyatları'nda artistik buz pateni - Kadınlar	2014 Kış Olimpiyatları'nda artistik buz pateni - Erkekler	2014 Kış Olimpiyatları'nda artistik buz pateni
+[CAT=sport]	2014 Kış Olimpiyatları'nda skeleton - Kadınlar	2014 Kış Olimpiyatları'nda skeleton - Erkekler	2014 Kış Olimpiyatları'nda skeleton
+[CAT=sport]	2016 Yaz Olimpiyatları'nda basketbol - Kadınlar	2016 Yaz Olimpiyatları'nda basketbol - Erkekler	2016 Yaz Olimpiyatları'nda basketbol
+[CAT=sport]	2016 Yaz Olimpiyatları'nda futbol - Kadınlar	2016 Yaz Olimpiyatları'nda futbol - Erkekler	2016 Yaz Olimpiyatları'nda futbol
+[CAT=sport]	2016 Yaz Olimpiyatları'nda golf - Kadınlar	2016 Yaz Olimpiyatları'nda golf - Erkekler	2016 Yaz Olimpiyatları'nda golf
+[CAT=sport]	2016 Yaz Olimpiyatları'nda hentbol - Kadınlar	2016 Yaz Olimpiyatları'nda hentbol - Erkekler	2016 Yaz Olimpiyatları'nda hentbol
+[CAT=sport]	2016 Yaz Olimpiyatları'nda çim hokeyi - Kadınlar	2016 Yaz Olimpiyatları'nda çim hokeyi - Erkekler	2016 Yaz Olimpiyatları'nda çim hokeyi
+[CAT=sport]	2018 Akdeniz Oyunları'nda hentbol - Kadınlar	2018 Akdeniz Oyunları'nda hentbol - Erkekler	2018 Akdeniz Oyunları'nda hentbol
+[CAT=sport]	2018 Akdeniz Oyunları'nda sutopu - Kadınlar	2018 Akdeniz Oyunları'nda sutopu - Erkekler	2018 Akdeniz Oyunları'nda sutopu
+[CAT=sport]	2018 Akdeniz Oyunları'nda voleybol - Kadınlar	2018 Akdeniz Oyunları'nda voleybol - Erkekler	2018 Akdeniz Oyunları'nda voleybol
+[CAT=sport]	2018 Kış Olimpiyatları'nda artistik buz pateni - Kadınlar	2018 Kış Olimpiyatları'nda artistik buz pateni - Erkekler	2018 Kış Olimpiyatları'nda artistik buz pateni
