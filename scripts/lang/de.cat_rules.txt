@@ -1,0 +1,103 @@
+### CATEGORIES
+# CAT.cat.X -- filters for categories
+# CAT.title.X -- filters for titles
+# CAT.X.full -- full match with category/title
+# CAT.X.full_prefix -- prefix match with full category/title
+# CAT.X.words -- words that appear in categories/titles
+# CAT.X.prefixes -- prefixes of words in these categories/titles
+# CAT.X.suffixes -- suffixes of words in these categories/titles
+
+# list -- lists of ...
+
+list.cat.words = liste
+list.title.words = liste
+
+# weak_list -- lists of ...,but less sure than the main category 'list'
+# captures titles without the word 'list' in the title
+# plurals -- organizations,institutions,etc. as in Female organizations in Poland
+# mostly nominals but also Schauspielern as in Eine Liste von Schauspielern
+
+weak_list.title.words = schriftsteller,künstler,spieler,besitzer,mitglieder,redakteure,politiker,schriftsteller,lexikographen,dichter,direktoren,drehbuchautoren,produzenten,historiker,theoretiker,maler,journalisten,sportler,person,hochschullehrer,autor,mitglied,teilnehmer,trainer,absolvent,schriftstellern,künstlern,spielern,besitzern,mitgliedern,redakteuren,politikern,schriftstellern,dichtern,direktoren,drehbuchautoren,produzenten,historikern,theoretikern,malern,sportlern,hochschullehrern,autorn,teilnehmern,trainern,absolventen,zeitungen,sportlerinnen,offiziere,namen,nachnamen,vereine,parteien,organisationen,gründungen,einrichtungen,gewerkschaften,wohlfahrtsverbände,verbände,chöre,vereine,parteien,organisationen,gemeinden,orchestern,chören,personennames,familiennames,names
+
+# art -- titles of paintings,movies,tv series,etc.
+
+art.cat.prefixes = film,album,lied,gemälde,musical,oper,diskografie,band,fernseh,musik,computerspiel,literatur,literarisches
+art.cat.suffixes = titel,film,komödie,lied,drama,charaktere,thriller,literatur,zeitschrift,zeitung,malerei,porträt,kleidung
+art.cat.words = episodenliste,kunst,kunstwerk,werk
+        
+art.title.words = film,zeitschrift,album,spiel,roman,gemälde,band,musical,skulptur,soundtrack,buch,lied,musical,manga,oper,anime,konzert
+
+art.title.non_words = auszeichnung,auszeichnungen,preise
+art.title.full_non_prefixes = frauen_in,frauen_im,männer_in,männer_im,frauen_und,männer_und
+art.cat.non_words = auszeichnung,auszeichnungen,preise
+
+# buildings,schools,universities etc.
+
+building.title.suffixes = gebäude,bibliothek,baudenkmal,bauwerk,museum,kirche,basilica,universität,kloster,basilika,skulptur,kathedrale,sakralbau,kapelle,kulturdenkmal,hochschule,bahnhof,krankenhaus,frauenkirche,herrenhaus,frauenhofen,tunnel
+        
+building.cat.words = gegründet,hochhaus
+
+building.cat.suffixes = bibliotheken,denkmäler,bauwerke,museen,kirchen,basiliken,universitäten,klöster,basiliken,skulpturen,kathedralen,sakralbauten,kapellen,kulturdenkmäler,universitäten,bahnhöfe,krankenhäuser,frauenkirche,gebäude,bibliothek,baudenkmal,bauwerk,museum,kirche,basilica,universität,kloster,basilika,skulptur,kathedrale,sakralbau,kapelle,kulturdenkmal,hochschule,bahnhof,krankenhaus,frauenkirche
+
+# sport
+
+sport.cat.prefixes = sport,fußball,futsal,sportler,leichtathletik,handball,volleyball,squash,unihockey,faustball,eishockey,eishockey,frauenfußball,jugendhandball,badminton
+
+sport.cat.words = sportart,olympische,olympischen,sommerspielen,cup,schach,golf,challenger,tour,games
+
+sport.cat.suffixes = sportler,veranstaltung,wettbewerb,sport,meisterschaft,weltmeisterschaften,mannschaft,mannschaften,olympiade,meisterschaften,pokal,bundesliga,turnier,verein,league,champions,marathon,weltcup,wettkampf,sportteam,weltmeister,europameister
+
+sport.title.words = uefa,icc,iaaf,uci,afl,nrl,prix,freestyle,playoffs,eurobasket,fiba,fc,eredivisie
+        
+sport.title.prefixes = sport,fußball,futsal,sportler,leichtathletik,handball,volleyball,squash,unihockey,faustball,eishockey,eishockey,frauenfußball,jugendhandball,badminton
+
+sport.title.words = sportart,olympische,olympischen,sommerspielen,cup,schach,golf,finals,tour,challenger,games
+
+sport.title.suffixes = sportler,veranstaltung,wettbewerb,sport,meisterschaft,weltmeisterschaften,mannschaft,mannschaften,olympiade,meisterschaften,pokal,bundesliga,turnier,verein,league,champions,marathon,weltcup,wettkampf,sportteam,weltmeister,europameister,handball,football,bodybuilding,liga,rundfahrt,einzel,doppel,europacup,hockey
+
+# biology -- animals,plants,anatomy,etc.                                 
+
+bio.cat.words = botanik,biologie,kräuter,pflanze,pflanzen,zoologie,tiere,geologie,papageien,mineral,obst,bäume
+bio.cat.suffixes = artige
+        
+# proper names -- people,companies,institutions
+ 
+name.cat.words = geboren,gestorben,namen,nachnamen,vereine,parteien,unternehmen,organisationen,gründungen,einrichtungen,gewerkschaften,wohlfahrtsverbände,verbände,chöre,vereine,parteien,organisationen,gemeinden,personenname,familienname,vorname,adelsgeschlecht
+
+name.title.suffixes = mantel,schuh,familienname
+name.title.words = jan
+
+name.cat.full_non_prefixes = frauen_in,frauen_im,männer_in,männer_im,frauen_und,männer_und
+name.title.full_non_prefixes =  frauen_in,frauen_im,männer_in,männer_im,frauen_und,männer_und
+
+# not interesting categories,skipped when processing
+
+not_interesting.cat.prefixes = artikel,seiten,vorlage,navigationsleiste,datei,weblinks,ungeprüfte,archivlinks,wikipedia,kategorie
+not_interesting.cat.words = metacategories,categories
+                                    
+not_interesting.title.prefixes = artikel,seiten,vorlage,navigationsleiste,datei,weblinks,ungeprüfte,archivlinks,wikipedia,kategorie
+not_interesting.title.words =  metacategories,categories
+                                    
+# geographic -- cities,regions,sees
+
+geo.title.words = stadt,fund,ort,staat,geographie,verwaltungseinheit,berg,landkreis,kanton,gewässer,stadtteil,insel,platz,brücke,höhle,see,fluss,bezirk,meer,herrenhausen,straße
+
+geo.title.suffixes = straße,strasse,kreis,provinz,distrikt,dorf,berg,kirchen,gasse,insel
+
+geo.cat.words = städte,orte,geographie,verwaltungseinheiten,berge,landkreise,kantone,bezirke,inseln,orte,brücken,höhlen,seen,flüsse,stadt,fund,ort,staat,geographie,verwaltungseinheit,berg,landkreis,kanton,gewässer,stadtteil,insel,platz,brücke,höhle,see,fluss,bezirk,herrenhausen,herrenhäuser,straße,herrenhaus
+    
+geo.title.full_non_prefixes = frauen_in,frauen_im,männer_in,männer_im,frauen_und,männer_und
+
+# social topics -- history,women_in_...
+
+social.cat.full = frauen,männer,gender,feminismus,frauengeschichte,frauenrechte,lgbt
+
+social.cat.full_prefixes = frauen_und,männer_und,frauen_in,männer_in,frauen_im,männer_im
+
+social.cat.suffixes = geschichte,feministische,wahlrecht,feminismus,forschung,politik,frauenrechte,politische,religion,politisches,prostitution,sexualität,gender,soziologie,krieg,kriegs
+        
+social.cat.words = wahlrecht,rechte,gesundheit,geschichte,kriege,gewalt,gesellschaft,bewegungen,studien,militär,verträge,politisch,kulturell,regierung,feminismus,wissenschaft,streitigkeiten,feministisch,parlament,beziehungen,konflikte,kultur,geschäft,auszeichnung,auszeichnungen,beziehungen,preise,tag,award,awards
+
+social.title.words = wahlrecht,rechte,gesundheit,geschichte,kriege,gewalt,gesellschaft,bewegungen,studien,militär,verträge,politisch,kulturell,regierung,feminismus,wissenschaft,streitigkeiten,feministisch,parlament,beziehungen,konflikte,kultur,geschäft,auszeichnung,auszeichnungen,beziehungen,preise,award,awards
+
+social.title.full_prefixes = frauen_in,frauen_im,männer_in,männer_im,frauen_und,männer_und

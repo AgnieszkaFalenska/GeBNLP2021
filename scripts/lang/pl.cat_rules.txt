@@ -1,0 +1,73 @@
+### CATEGORIES
+# CAT.cats -- exact name of cats
+# CAT.cat.words -- words that appear in categories (usually plurals)
+# CAT.title.words -- words that appear in titles (singulars, such as 'movie', but also plurals, as in 'female actors')
+# X.prefixes -- prefixes of words in these categories/titles
+# X.suffixes -- suffixes of words in these categories/titles
+
+# list -- lists of ...
+
+list.cat.words = listy
+list.title.words = lista,zestawienie,statystyki,imiona
+
+# weak_list -- lists of, but less sure, to capture titles without the word "list" in the title
+# plurals -- organizations, institutions, etc. as in "Female organizations in Poland"
+# mostly nominals but also "Schauspielern" as in "Eine Liste von Schauspielern"
+
+weak_list.title.words = selekcjonerzy,senatorowie,laureaci,żołnierze,feminiści,anarchiści,aktorzy,działacze,wokaliści,raperzy,malarze,ministrowie,selekcjonerki,senatorki,laureatki,żołnierki,feministki,feminiści,anarchistki,aktorki,działaczki,wokalistki,raperki,malarki,ministerki,selekcjonerów,senatorów,laureatów,żołnierzy,feministów,anarchistów,aktorów,laureatów,działaczy,wokalistów,raperów,malarzy,ministrów,przedsiębiorstwa,organizacje,stowarzyszenia,partie,instytucje,spółki,związki,przedsiębiorstw,organizacji,stowarzyszeń,partii,instytucji,spółek,związków,komisje,konferencje,chóry,komisji,konferencji,chórów
+
+# art -- titles of paintings, movies, tv series, etc.
+
+art.cat.words = obrazy,filmy,seriale,albumy,adaptacje,piosenki,książki,powieści,utwory,single,czasopisma,opery,fotografie,rysunki,gry,portrety,koncertowe,literatura,komediodramaty,twórczość,autorstwa,muzyczne,postacie,telewizyjne,tvp,telewizje,kanały,melodramaty,romantyczne,komedie,telewizji,telenowele,malarstwo,chóry,rzeźby
+
+art.title.words = obraz,film,serial,album,adaptacja,piosenka,książka,powieść,utwór,singel,czasopismo,opera,fotografia,rysunek,postać,gra,portret,komediodramat,melodramat,komedia,telenowela,rzeźba
+
+art.title.non_words = nagrody,nagroda
+art.title.full_non_prefixes = kobiety_w,mężczyźni_w
+art.cat.non_words = nagrody,nagroda
+
+# buildings, schools, universities etc.
+
+building.cat.words = pomniki,zabytki,budynki,umocniena,muzea,szkoły,gimnazja
+building.title.words = pomnik,zabytek,budynek,muzeum,szkoła,gimnazjum
+
+# sport
+
+sport.cat.words = sport,pływanie,kolarstwo,sezon,cup,australian,open,zawody,curling,mistrzostwa,puchar,boksie,gimnastyka,piłka,piłce,nożnej,nożna,sportach,wimbledon,zapasach,kolarstwie,rugby,sporcie,skokach,liga,uniwersjadzie,unihokeju,curlingu,zapasy,łyżwiarstwo,krykiet,pływaniu,mistrzostwach,futbol,unihokej,international,internazionali,championships,tennis,challenger,plusliga,tour,sportowe
+
+sport.cat.prefixes = koszyków,sportow,koszykar,mistrzostw,tenis,igrzysk,olimpijsk,siatk,piłkarsk,narciarsk,reprezentacj,rozgryw,hokej,lekkoatlety,ręczn
+
+sport.title.words = sport,pływanie,kolarstwo,sezon,cup,australian,open,zawody,curling,mistrzostwa,puchar,boksie,gimnastyka,piłka,piłce,nożnej,nożna,sportach,wimbledon,zapasach,kolarstwie,rugby,sporcie,skokach,liga,uniwersjadzie,unihokeju,curlingu,zapasy,łyżwiarstwo,krykiet,pływaniu,mistrzostwach,futbol,unihokej,international,internazionali,championships,tennis,challenger,plusliga,tour,sportowe,uefa,icc,iaaf,uci,afl,nrl,prix,freestyle,playoffs,eurobasket,fiba,fc,eredivisie
+
+sport.title.prefixes = koszyków,sportow,koszykar,mistrzostw,tenis,igrzysk,olimpijsk,siatk,piłkarsk,narciarsk,reprezentacj,rozgryw,hokej,lekkoatlety,ręczn
+
+# biology -- animals, plants, anatomy, etc.                                 
+
+bio.cat.words = zwierzęta,rośliny,fizjologia,anatomia,biologia
+bio.cat.suffixes = owate
+       
+# proper names -- people, companies, institutions
+ 
+name.cat.words = urodzeni,zmarli,przedsiębiorstwa,organizacje,stowarzyszenia,partie,instytucje,spółki,związki,chóry
+name.cat.full_non_prefixes = kobiety_w,mężczyźni_w
+name.title.full_non_prefixes = kobiety_w,mężczyźni_w
+ 
+# not interesting categories, skipped when processing
+
+not_interesting.cat.words = strony,zalążki,artykuły,artykuł,user,wiki,szablon,dyskusje,kategorie,infoboksy,propozycje,portal,głosowania,metakategorie,szablony,wikiprojekty
+
+not_interesting.title.words = strony,zalążki,artykuły,artykuł,user,wiki,szablon,dyskusje,kategorie,infoboksy,propozycje,portal,głosowania,metakategorie,szablony,wikiprojekty
+
+
+# geographic -- cities, regions, sees
+
+geo.cat.words = geografia,państwa,wsie,dzielnice,miasta,osiedla,gminy,regiony,terytoria,skały,wyspy,prowincje,administracyjny,jeziora
+geo.title.words = państwo,miasto,wieś,dzielnica,osiedle,gmina,region,terytorium,skały,wyspy,wyspa,prowincja,gmina,jezioro
+geo.title.full_non_prefixes = kobiety,mężczyźni
+     
+# social topics -- history, women_in_...
+
+social.cat.full = kobieta,kobiety,gender_studies,mężczyzna,feminizm
+social.cat.words = święta,historia,nauka,przestępczość,prawo,socjologia,problemy,dyskriminacja,senacie,senat,nagrody
+social.title.words = dzień,nagroda,award,zasługi,order,kondom,antykoncepcja,marsz,kodeks
+social.title.full_prefixes = kobiety_w,mężczyźni_w

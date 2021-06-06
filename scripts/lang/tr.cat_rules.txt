@@ -1,0 +1,85 @@
+### CATEGORIES
+# CAT.cat.X -- filters for categories
+# CAT.title.X -- filters for titles
+# CAT.X.full -- full match with category/title
+# CAT.X.full_prefix -- prefix match with full category/title
+# CAT.X.words -- words that appear in categories/titles
+# CAT.X.prefixes -- prefixes of words in these categories/titles
+# CAT.X.suffixes -- suffixes of words in these categories/titles
+
+# list -- lists of ...
+
+weak_list.cat.words = listeleri
+list.title.words = listesi
+
+# weak_list -- lists of ...,but less sure than the main category 'list'
+# captures titles without the word 'list' in the title
+# plurals -- organizations,institutions,etc. as in Female organizations in Poland
+# mostly nominals but also Schauspielern as in Eine Liste von Schauspielern
+
+weak_list.title.words = yazarlar,karakterler,sanatçılar,oyuncular,sahipleri,üyeleri,editörler,eleştirmenler,romancılar,sözlükçüler,şairler,yönetmenler,senaristler,yapımcılar,tarihçiler,teorisyenler,yayımcılar,ressamlar,gazeteciler,kahramanlar,sporcular,grupları,korolar,bölümler,orkestralar,soyadlar,soyadı,kuruluşlar,kuruluşları,partiler,dernekler,kurumları
+weak_list.title.full = sinemada_türk_kadını
+
+# art -- titles of paintings,movies,tv series,etc.
+
+art.title.words = wwe,film,tiyatro,portresi,albüm,albümü,sofokles
+
+art.cat.words = portreleri,tango,hikâyeleri,filmleri,filmler,operalar,şarkılar,albümler,dergiler,kitaplar,seriler,diziler,şiirler,romanlar,oyunlar,taslaklar,eserler,serisi,tasvirler,kitapları,albümleri,başlıkları,dergileri,şarkıları,dizileri,romanları,hikâyeler,resimler,festivaller,tabloları,hikâyeleri
+
+art.title.non_words = ödül,ödüller,ödüller,ödülleri,ödülü
+art.title.full_non_suffixes = da_kadın,da_erkek
+art.cat.non_words = ödül,ödüller,ödüller,ödülleri,ödülü
+art.cat.full_prefixes = show_tv 
+
+# buildings,schools,universities etc.
+
+building.title.words = türbesi,lisesi,gökdelen,yapı,kütüphane,anıt,yapı,müze,kilise,bazilika,üniversite,manastır,bazilika,heykel,katedral,şapel,kolej,istasyonu,hastane,lahdi
+        
+building.cat.words = liseler,gökdelenler,yapılar,kütüphaneler,anıtlar,müzeler,kiliseler,bazilikalar,üniversiteler,manastırlar,bazilikalar,heykeller,katedraller,şapeller,kolejler,istasyonlar,hastaneler,anıtlar,müzeler
+
+# sport
+
+sport.cat.words = voleybol,şampiyonası,olimpiyatlarında,spor,takımı,atletizm,takımları,futbol,basketbol,müsabakaları,şampiyonasında,güreş,ligi,olimpiyatlarda,takımı,tenis,kupası,ragbi,kulüpleri,yüzme,hentbol,sporları,turnuvası,wimbledon,bisiklet,pateni,oyunlarında,jimnastik,judo,hokeyi,voleybolu,sutopu,oyunları,boks,cup,metre,olimpiyat,açık,sezon,tour
+
+sport.title.words = voleybol,şampiyonası,olimpiyatlarında,spor,takımı,atletizm,takımları,futbol,basketbol,müsabakaları,şampiyonasında,güreş,ligi,olimpiyatlarda,takımı,tenis,kupası,ragbi,kulüpleri,yüzme,hentbol,sporları,turnuvası,wimbledon,bisiklet,pateni,oyunlarında,jimnastik,judo,hokeyi,voleybolu,sutopu,oyunları,boks,cup,metre,olimpiyat,açık,sezon,snowboard,olimpiyatları,biatlon,bobsled,sprint,kayak,disiplini,eurobasket,golf
+
+# biology -- animals,plants,anatomy,etc.                                 
+
+bio.cat.words = bitki,botanik,biyoloji,otlar,bitki,bitkiler,zooloji,hayvanlar,jeoloji,papağanlar,mineraller,meyve,ağaçlar,mahalleleri
+       
+# proper names -- people,companies,institutions
+ 
+name.cat.words = birimleri,yönetmenleri,yapımcıları,şirketler,oluşumlar,grupları,korolar,bölümler,orkestralar,ölü,isimler,soyadlar,soyadı,kuruluşlar,kuruluşları,partiler,dernekler,kurumları,doğumlular,ölenler,karakterleri,doğanlar,ölenler
+name.cat.full_non_suffixes = da_kadın,da_erkek
+name.cat.full_suffixes = south_park_,tampa_bay_
+name.title.full_non_prefixes = da_kadın,da_erkek
+name.title.full_prefixes = bayan_,deniz_erkeği,bay_
+name.title.full_suffixes = bayan_,deniz_erkeği
+name.title.words = konferansı,festivali
+name.title.non_words = ödülleri,ödülü
+
+# not interesting categories,skipped when processing
+
+not_interesting.cat.prefixes = vikiproje,vikipedi,kullanıcı
+not_interesting.cat.words = vikiproje,vikipedi,kullanıcı,sayfalar,şablonları,vikipedistler,pages,webarşiv
+
+not_interesting.title.prefixes = vikiproje,vikipedi,kullanıcı
+not_interesting.title.words =  vikiproje,vikipedi,kullanıcı,sayfalar,şablonları,vikipedistler,pages,webarşiv
+
+# geographic -- cities,regions,sees
+
+geo.title.words = şehir,yer,eyalet,coğrafya,dağ,kanton,ilçe,ada,meydan ,köprü,mağara,göl,nehir,sokak,city,glacier
+geo.cat.words = şehirler,yerler,dağlar,kanyonlar,ilçeler,adalar,meydanlar,köprüler,mağaralar,göller,nehirler,sokaklar,mahalleler,yerleri
+geo.title.full_non_suffixes = da_kadın,da_erkek
+geo.title.full_prefixes = cloudy_bay,bristol_bay
+geo.title.full_suffixes = _bay
+
+# social topics -- history,women_in_...
+
+social.cat.full = feminizm,cinsiyet_araştırmaları,kadın,erkek,cinsiyete_dayalı_meslekler
+social.title.words = ödülleri,ödülü,siyasi,hakları,feminizm,şiddetin,seks,cinselliği,cinayetleri,düşmanlığı,savaşı,günü,çizelgesi
+social.cat.words = ödülleri,ödülü,siyasi,hakları,feminizm,şiddetin,seks,cinselliği,suçlar
+social.title.full_suffixes = da_kadın,da_erkek,nda_kadınlar,kadınların_yeri,te_kadın 
+social.title.full_prefixes = kadın_,erkek_,kadına_
+social.title.full = atatürk_devrimleri_açısından_türk_kadını,bayan,bilişimde_kadınlar,kadınlara_oy_hakkı,kızılderili_kadını 
+

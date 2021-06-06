@@ -1,0 +1,78 @@
+### CATEGORIES
+# CAT.cat.X -- filters for categories
+# CAT.title.X -- filters for titles
+# CAT.X.full -- full match with category/title
+# CAT.X.full_prefix -- prefix match with full category/title
+# CAT.X.words -- words that appear in categories/titles
+# CAT.X.prefixes -- prefixes of words in these categories/titles
+# CAT.X.suffixes -- suffixes of words in these categories/titles
+
+# list -- lists of ...
+
+list.cat.words = lists
+list.title.words = list
+
+# weak_list -- lists of ..., but less sure than the main category 'list'
+# captures titles without the word 'list' in the title
+# plurals -- organizations,institutions,etc. as in "Female organizations in Poland"
+# mostly nominals but also "Schauspielern" as in "Eine Liste von Schauspielern"
+
+weak_list.title.words = writers,artists,players,owners,members,editors,critics,novelists,lexicographers,poets,directors,screenwriters,producers,historians,theorists,publishers,painters,journalists,heroes,athletes,characters,musicians,singers,footballers,politicians,actors,sportspeople,titles,newspapers,ministers,sportswomen,people,officers,names,surnames,associations,clubs,parties,establishments,companies,organizations,organisations,disestablishments,institutions,unions,charities,politics,federations,clubs,choirs
+
+# art -- titles of paintings,movies,tv series,etc.
+
+art.cat.words = films,magazines,albums,stories,plays,novels,paintings,bands,musicals,sculptures,soundtracks,books,songs,directed,novels,television,books,produced,dramas,written,fiction,comics,comedy,paintings,musical,magazines,episodes,literature,manga,operas,musicals,anime,soundtracks,concerts,records,poetry,tales
+
+art.title.words = film,magazine,album,story,play,novel,painting,band,musical,sculpture,soundtrack,book,song,musical,manga,opera,anime,concert
+
+art.title.non_words = award,awards,prizes
+art.title.full_non_prefixes = women_in,men_in
+art.cat.non_words = award,awards,prizes
+
+# buildings,schools,universities etc.
+
+building.cat.words = buildings,museums,hospitals,sculptures,architecture,hospitals,stations,prisons,statues,colleges,universities,schools
+building.title.words = building,museum,hospital,sculpture,prison,statue,college,university,school
+
+# sport
+
+sport.cat.words = champions,teams,cup,league,games,races,players,olympiad,tournament,paralympic,olympic,universiade,doubles,singles,open,circuit,tennis,trophy,football,basketball,rugby,volleyball,cycling,boxing,curling,hockey,fencing,golf,soccer,badminton,baseball,surfing,swimming,polo,lacrosse,handball,uefa,icc,iaaf,uci,afl,nrl,grand prix,freestyle,record progression,bowling,track,marathon,wrestling,squash,rowing,climbing,cricket,racing,playoffs,hardcourts,sevens,challenge,afrobasket,gymnastics,quadrangular,premiership,eurobasket,centrobasket,divisjon,fiba,fc,eredivisie,strongest,tour,sports,sport,championships,competitions,olympics,teams,championships,athletics,metres,olympics,kg,jump,indoor,paralympics,throw,weightlifting,hurdles,championship,metre,skating,skiing,judo,canoeing,biathlon,slalom,cross-country,taekwondo,sporting,softball,chess,motorsport,marathons,futsal,outdoor,snooker,softball,floorball,goalball,pinball,racquetball,netball,ball,fistball
+
+sport.title.words = champions,teams,cup,league,games,races,players,olympiad,tournament,paralympic,olympic,universiade,doubles,singles,open,circuit,tennis,trophy,football,basketball,rugby,volleyball,cycling,boxing,curling,hockey,fencing,golf,soccer,badminton,baseball,surfing,swimming,polo,lacrosse,handball,uefa,icc,iaaf,uci,afl,nrl,grand prix,freestyle,record progression,bowling,track,marathon,wrestling,squash,rowing,climbing,cricket,racing,playoffs,hardcourts,sevens,challenge,afrobasket,gymnastics,quadrangular,premiership,eurobasket,centrobasket,divisjon,fiba,fc,eredivisie,strongest,tour,sports,sport,championships,competitions,olympics,teams,championships,athletics,metres,olympics,kg,jump,indoor,paralympics,throw,weightlifting,hurdles,championship,metre,skating,skiing,judo,canoeing,biathlon,slalom,cross-country,taekwondo,sporting,softball,chess,motorsport,marathons,futsal,outdoor,snooker,softball,floorball,goalball,pinball,racquetball,netball,ball,fistball
+
+# biology -- animals,plants,anatomy,etc.                                 
+
+bio.cat.words = species,diseases
+       
+# proper names -- people,companies,institutions
+ 
+name.cat.words = associations,federations,clubs,parties,establishments,companies,organizations,organisations,disestablishments,institutions,unions,charities,births,deaths,unions,choirs
+name.cat.full_non_prefixes = women_in,men_in,
+name.title.full_non_prefixes = women_in,men_in
+        
+# not interesting categories,skipped when processing
+
+not_interesting.cat.prefixes = articles,pages,wiki
+not_interesting.cat.words = metacategories,categories
+
+not_interesting.title.prefixes = articles,pages,wiki
+not_interesting.title.words =  metacategories,categories
+
+# geographic -- cities,regions,sees
+
+geo.cat.words = territories,stations,lakes,oceans,mountains,rivers,geography,populated,districts,archaeological,countries,cities
+geo.title.words = territory,station,lake,ocean,mountain,river,district,archaeological,country,city
+geo.title.full_non_prefixes = women_in,men_in,women_of,men_of
+
+# social topics -- history,women_in_...
+
+social.cat.full = feminism,gender,gender_studies,feminism,men,women
+
+social.cat.full_prefixes = gender_and,gendered,women_by_,men_by_
+
+social.cat.words = islam,ismailism,suffrage,rights,health,history,wars,violence,society,federation,movements,law,studies,education,military,treaties,educational,political,cultural,government,feminism,science,disputes,feminist,parliament,relations,conflicts,culture,business,award,awards,relationships,prizes
+
+social.title.words = islam,ismailism,day,suffrage,rights,health,history,war,violence,society,movement,law,studies,education,military,treaties,educational,political,cultural,politics,government,wars,feminism,science,disputes,feminist,parliament,relations,conflicts,culture,business,award,awards,prize,hygiene,gender,feminism
+
+social.title.full_prefixes = women_in,women_and,men_in,men_and
+                        
